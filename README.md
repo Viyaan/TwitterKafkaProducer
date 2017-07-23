@@ -10,6 +10,17 @@ Maven Dependency for twitter used.
          <artifactId>hbc-core</artifactId>
          <version>1.3.0</version>
 	</dependency>
+	
+	<dependency>
+         <groupId>org.twitter4j</groupId>
+         <artifactId>twitter4j-stream</artifactId>
+         <version>4.0.6</version>
+    </dependency>
+    <dependency>
+         <groupId>org.twitter4j</groupId>
+         <artifactId>twitter4j-core</artifactId>
+         <version>4.0.6</version>
+    </dependency>
 	  
 Kafka Dependency used	 
  
