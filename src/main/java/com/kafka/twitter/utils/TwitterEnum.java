@@ -1,4 +1,4 @@
-package com.viyaan.property;
+package com.kafka.twitter.utils;
 
 /**
  * Created by viyaan

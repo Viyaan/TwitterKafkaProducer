@@ -1,14 +1,14 @@
-package com.viyaan.twitter;
+package com.kafka.twitter.apis;
 
-import static com.viyaan.property.TwitterEnum.BROKER_LIST;
+import static com.kafka.twitter.utils.TwitterEnum.BROKER_LIST;
 
 import java.util.Properties;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.viyaan.property.PropertiesLoader;
-import com.viyaan.property.TwitterEnum;
+import com.kafka.twitter.utils.PropertiesLoader;
+import com.kafka.twitter.utils.TwitterEnum;
 
 import kafka.javaapi.producer.Producer;
 import kafka.producer.KeyedMessage;

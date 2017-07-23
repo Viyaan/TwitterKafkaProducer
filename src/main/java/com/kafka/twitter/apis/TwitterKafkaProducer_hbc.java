@@ -1,12 +1,14 @@
-package com.viyaan.twitter;
+package com.kafka.twitter.apis;
 
-import static com.viyaan.property.TwitterEnum.BROKER_LIST;
+import static com.kafka.twitter.utils.TwitterEnum.BROKER_LIST;
 
 import java.util.Arrays;
 import java.util.Properties;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
+import com.kafka.twitter.utils.PropertiesLoader;
+import com.kafka.twitter.utils.TwitterEnum;
 import com.twitter.hbc.ClientBuilder;
 import com.twitter.hbc.core.Client;
 import com.twitter.hbc.core.Constants;
@@ -14,8 +16,6 @@ import com.twitter.hbc.core.endpoint.StatusesFilterEndpoint;
 import com.twitter.hbc.core.processor.StringDelimitedProcessor;
 import com.twitter.hbc.httpclient.auth.Authentication;
 import com.twitter.hbc.httpclient.auth.OAuth1;
-import com.viyaan.property.PropertiesLoader;
-import com.viyaan.property.TwitterEnum;
 
 import kafka.producer.KeyedMessage;
 import kafka.producer.ProducerConfig;
