@@ -5,11 +5,11 @@ Twitter API for kafka to fetch live feeds from twitter and send the real time da
 
 Maven Dependency for twitter used.
 
-<dependency>
+	<dependency>
          <groupId>com.twitter</groupId>
          <artifactId>hbc-core</artifactId>
          <version>1.3.0</version>
-</dependency>
+	</dependency>
 	  
 Kafka Dependency used	 
  
